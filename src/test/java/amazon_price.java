@@ -32,7 +32,7 @@ public class amazon_price {
         WebElement firstProduct = driver.findElement(By.xpath("//div[@id=\"100_dealView_0\"]//div[2]//a"));
         wait.until(ExpectedConditions.elementToBeClickable(firstProduct));
         firstProduct.click();
-//        Thread.sleep(3000);
+//     Thread.sleep(3000);
 
 //        WebElement prdct = driver.findElement(By.xpath("//a[@class=\"a-link-normal\"]"));
 //        wait.until(ExpectedConditions.elementToBeClickable(prdct));
