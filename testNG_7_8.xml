@@ -4,7 +4,6 @@
         <classes>
             <class name="test.java.amazon_1"/>
             <class name="test.java.amazon_2"/>
-            <class name="test.java.amazon_price"/>
         </classes>
     </test>
 </suite>
