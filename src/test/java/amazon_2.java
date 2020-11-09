@@ -1,4 +1,4 @@
-package test.java.lesson8;
+package test.java;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

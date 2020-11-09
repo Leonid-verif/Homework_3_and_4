@@ -1,4 +1,4 @@
-package test.java.lesson8;
+package test.java;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -32,11 +32,9 @@ public class amazon_price {
         WebElement firstProduct = driver.findElement(By.xpath("//div[@id=\"100_dealView_0\"]//div[2]//a"));
         wait.until(ExpectedConditions.elementToBeClickable(firstProduct));
         firstProduct.click();
-//     Thread.sleep(3000);
 
-//        WebElement prdct = driver.findElement(By.xpath("//a[@class=\"a-link-normal\"]"));
-//        wait.until(ExpectedConditions.elementToBeClickable(prdct));
 
+//        Thread.sleep(3000);
 
 
         WebElement best = driver.findElement(By.xpath("//div[@class=\"a-row octopus-dlp-price\"]/span/span/span[2]"));
